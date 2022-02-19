@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h4,h1,h2{
+    font-family: 'Cookie', cursive;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-weight: 800;
+}
+ .nav-item a:hover{
+color: blue;
+    
+    font-size: 17px;
+}
+ 
+
+.w-100{
+    height: 600px;
+}
+.carousel-caption{
+    margin-bottom: 150px;
+ 
+}
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+.logoouter {
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px 10px;
+    flex-wrap: wrap;
+    width: 24%;
+    border: 2px solid gray;
+}
+.services{
+    background-image: url(IMAGES/wedding-Wallpapers-HD.jpg);
+}
+
+.photo-wrap{
+    position: relative;
+    column-count: 4;
+    padding: 20px;
+}
+.galleryimges{
+    display: inline-block;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.image-wrap{
+    width: 100%;
+    transition: 0.25 ease-in-out;
+}
+.galleryimges:hover .image-wrap{
+transform: scale(1.1);
+}
+@media screen and (max-width:1000px) {
+    .photo-wrap{
+        column-count: 3;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .photo-wrap{
+        column-count: 2;
+    }
+    
+}
+/* progress bar */
+.progress{
+    margin-bottom: 22px;
+}
+/* testimoni */
+.testimoni{
+    background: url('IMAGES/slide2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+  
+
+    background-size: cover;
+}
+/* shashi page */
+
